@@ -149,6 +149,7 @@ set(YARP_devices_SRCS   src/modules/AnalogWrapper/AnalogWrapper.cpp
                         src/modules/Rangefinder2DClient/Rangefinder2DClient.cpp
                         src/modules/ControlBoardWrapper/ControlBoardWrapper.cpp
                         src/modules/Navigation2DClient/Navigation2DClient.cpp
+                        src/modules/LocationsServer/LocationsServer.cpp
                         src/modules/VirtualAnalogWrapper/VirtualAnalogWrapper.cpp
                         src/modules/ControlBoardRemapper/ControlBoardRemapper.cpp
                         src/modules/ControlBoardRemapper/ControlBoardRemapperHelpers.cpp)
@@ -161,6 +162,7 @@ set(YARP_devices_HDRS   src/modules/AnalogWrapper/AnalogWrapper.h
                         src/modules/AnalogSensorClient/AnalogSensorClient.h
                         src/modules/BatteryWrapper/BatteryWrapper.h
                         src/modules/BatteryClient/BatteryClient.h
+                        src/modules/LocationsServer/LocationsServer.h
                         src/modules/Rangefinder2DWrapper/Rangefinder2DWrapper.h
                         src/modules/Rangefinder2DClient/Rangefinder2DClient.h
                         src/modules/ControlBoardWrapper/ControlBoardWrapper.h
